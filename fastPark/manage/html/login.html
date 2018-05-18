@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <style type="text/css">
+    	*{font-family: "微软雅黑";}
+    	html,body{height: 100%;}
+
+    	.container-fluid{background-color:#4f421f;height: 100%;}
+    	.title{padding-top: 8%;}
+    	.main{margin-top: 40px;}
+    	.left{background-color: rgba(0,0,0,0.2);padding-top: 10px;padding-bottom: 60px;}
+    	.input-group{padding: 15px 0px;}
+    	.input-group input[type=text]{background-color: #766539;color: #ffd860;height: 50px;font-size: 18px;}
+    	.input-group input[type=password]{background-color: #766539;color: #ffd860;height: 50px;font-size: 18px;}
+    	.login{padding-top: 30px;}
+    	.title{font-style: italic;color: #ffd860;}
+    	.checkbox input[type=checkbox]{width: 15px;height: 15px;vertical-align: middle;}
+    	input::-webkit-input-placeholder{color: #ffd860!important;}
+    	input::-ms-input-placeholder{color: #ffd860!important;font-size: 18px;}
+
+    	.right{}
+
+    </style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row title">
+			<div class="col-11 offset-1">
+				<h1 style="font-weight: bold;font-size: 50px;">快泊停车岗亭管理平台</h1>
+			</div>
+		</div>
+		<div class="row main">
+		  	<div class="col-4 offset-1 left">
+		  		<div>
+		  			<p style="font-size: 30px;color: #ffd860;font-weight: bold;">用户登录</p>
+		  			<div class="input-group" style="/*border-bottom: 1px solid #ffd860;*/">
+					  	<!-- <span class="input-group-addon" id="basic-addon1">@</span> -->
+					  	<input type="text" class="form-control" placeholder="用户名" aria-describedby="basic-addon1">
+					</div>
+					<div class="input-group">
+					  	<!-- <span class="input-group-addon" id="basic-addon1">@</span> -->
+					  	<input type="password" class="form-control" placeholder="密码" aria-describedby="basic-addon1">
+					</div>
+
+					<div class="checkbox">
+					  	<label style="color: #ffd860;font-size: 18px;">
+					    	<input type="checkbox" value="">
+					    	记住密码
+					  	</label>
+					</div>
+
+					<div class="login">
+						<a href="../index.html">
+							<button class="btn btn-primary btn-block" style="background-color: #675826;font-size: 20px;color: #caab4e;font-weight: bold;border: 1px solid #675826;height: 50px;">立即登录</button>
+						</a>
+					</div>
+		  		</div>
+		  	</div>
+		  	<div class="col-6 right">
+		  		
+		  	</div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+<!-- bootstrap框架 -->
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<!-- traceur相关js -->
+<script src="../js/traceur/traceur.js"></script>
+<script src="../js/traceur/BrowserSystem.js"></script>
+<script src="../js/traceur/bootstrap.js"></script>
+<!-- es6语法 -->
+<script type="module">
+	$(function(){
+		
+	});
+</script>
+</html>
+
+

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>快泊智能停车监控</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <style type="text/css">
+    	*{font-family: "微软雅黑";}
+    	html,body{height: 100%;background-color: #4f421f;}
+
+ 		.container-fluid{width: 1700px;height: 900px;padding:10px 0px;}
+    </style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row" style="height: 100%;">
+			<div class="col-10">
+				<div class="row" style="height: 50%;">
+					<div class="col-6" style="background-color: transparent;position: relative;">
+						<div style="color: #00cc00;font-size: 25px;font-weight: bold;z-index: 999;">入口监控</div>
+						<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" width="690" height="320" id="vlc" src="http://hc.yinyuetai.com/uploads/videos/common/B52101615110957CCA64A354304D7953.mp4" name="test" autoplay="true" autostart="true"></embed>
+						<div class="row"  style="background-color: white">
+							<div class="col-6" style="position: relative;top: 5px;">
+								<button style="display:inline-block;padding: 15px 20px;background-color: #00cc00;font-size: 18px;font-weight: bold;outline: none;border:none;cursor: pointer;">F1抬杆</button>
+								<label style="font-size: 34px;font-weight: bold;line-height: 60px;margin-left: 10px;vertical-align: middle;">川A90J26</label>
+							</div>
+							<div class="col-6">
+								<p style="text-align: right;line-height: 20px;position: relative;top: 10px;">车辆类型：临时车</p>
+								<p style="text-align: right;line-height: 20px;">进入时间：<span>2018-03-10 08：00</span></p>
+							</div>
+						</div>
+
+					</div>
+					<style type="text/css">
+						.my-table1,.my-table2{height: calc(100% - 28px);overflow-y: scroll;width: 100%;}
+						.thead,.tbody,.tr{width: 100%;}
+						.thead{background-color: #c8c8c8;}
+						.tbody{background-color: white;}
+						.my-table1 .th{font-weight: bold;display: inline-block;width: 33.33%;text-align: center;}
+						.my-table1 .td{display: inline-block;width: 33.33%;padding-left: 10px;}
+
+						.my-table2 .th{font-weight: bold;display: inline-block;/*width: 20%;*/;text-align: center;}
+						.my-table2 .th:first-child{width: 15%;}
+						.my-table2 .th:nth-child(2){width: 30%;}
+						.my-table2 .th:nth-child(3){width: 25%;}
+						.my-table2 .th:nth-child(4){width: 15%;}
+						.my-table2 .th:nth-child(5){width: 15%;}
+						.my-table2 .td{display: inline-block;/*width: 20%;*/;padding-left: 10px;}
+						.my-table2 .tr .td:first-child{width: 15%;}
+						.my-table2 .tr .td:nth-child(2){width: 30%;}
+						.my-table2 .tr .td:nth-child(3){width: 25%;}
+						.my-table2 .tr .td:nth-child(4){width: 15%;}
+						.my-table2 .tr .td:nth-child(5){width: 15%;}
+					</style>
+					<div class="col-6" style="background-color: transparent;">
+						<div style="height: 50%;">
+							<p style="height: 28px;background-color: #999;width: 100%;text-align: center;margin-bottom: 0px!important;">入口历史信息</p>
+							<div class="my-table1">
+								<div class="thead">
+									<div class="th">
+										<label>入口车牌</label>
+									</div><!-- 
+									 --><div class="th">
+										<label>进入时间</label>
+									</div><!-- 
+									 --><div class="th">
+										<label>车辆类型</label>
+									</div>
+								</div>
+								<div class="tbody">
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div style="height: 50%;">
+							<p style="height: 28px;background-color: #999;width: 100%;text-align: center;margin-bottom: 0px!important;">出口历史信息</p>
+							<div class="my-table2">
+								<div class="thead">
+									<div class="th">
+										<label>出口车牌</label>
+									</div><!-- 
+									 --><div class="th">
+										<label>进入时间</label>
+									</div><!-- 
+									 --><div class="th">
+										<label>离开时间</label>
+									</div><!-- 
+									 --><div class="th">
+										<label>缴费状态</label>
+									</div><!-- 
+									 --><div class="th">
+										<label>车辆类型</label>
+									</div>
+								</div>
+								<div class="tbody">
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 11:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>已交</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 11:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>已交</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 11:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>已交</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 11:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>已交</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 11:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>已交</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 11:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>已交</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 11:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>已交</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+									<div class="tr">
+										<div class="td">
+											<label>川A90J26</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 08:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>2018-03-10 11:10</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>已交</label>
+										</div><!-- 
+										 --><div class="td">
+											<label>临时车</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="height: 50%;">
+					<div class="col-6" style="background-color: transparent;">
+						<div style="color: #00cc00;font-size: 25px;font-weight: bold;z-index: 999;">出口监控</div>
+						<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" width="690" height="320" id="vlc" src="http://hc.yinyuetai.com/uploads/videos/common/B52101615110957CCA64A354304D7953.mp4" name="test" autoplay="true" autostart="true"></embed>
+						<div class="row" style="background-color: white">
+							<div class="col-6" style="position: relative;top: 5px;">
+								<button class="act" style="display:inline-block;padding: 15px 20px;background-color: #00cc00;font-size: 18px;font-weight: bold;outline: none;border:none;cursor: pointer;">F2抬杆</button>
+								<label style="font-size: 34px;font-weight: bold;line-height: 60px;margin-left: 10px;vertical-align: middle;">川A90J26</label>
+							</div>
+							<div class="col-6">
+								<p style="text-align: right;line-height: 20px;position: relative;top: 10px;">车辆类型：临时车</p>
+								<p style="text-align: right;line-height: 20px;">离开时间：<span>2018-03-10 11：00</span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-6" style="background-color: transparent;">
+						<div>
+							<div style="color: #00cc00;font-size: 25px;font-weight: bold;z-index: 999;">入口图片</div>
+							<img src="image/picture.png" style="width: 690px;height: 325px;">
+						</div>
+						<div style="background-color: white;width: 100%;padding: 24px;text-align: center;">
+							支持入口图片与出口监控信息比对。
+						</div>
+					</div>
+				</div>
+			</div>
+			<style type="text/css">
+				.desc p{line-height: 16px;}
+				.desc .row-fluid{padding: 10px;}
+				.desc .row-fluid:first-child{padding: 10px 0px;padding-bottom: 0px;padding-top: 0px;}
+			</style>
+			<div class="col-2 desc" style="background-color: #4f421f;">
+				<div class="row-fluid"  style="">
+					<button style="width: 32.0%;cursor: pointer;">查询</button>
+					<button style="width: 32.0%;cursor: pointer;">设置</button>
+					<button style="width: 32.0%;cursor: pointer;">换班</button>
+				</div>
+				<div class="row-fluid" style="background-color: white;margin-top: 10px;">
+					<p style="padding-bottom: 8px;width: 100%;border-bottom: 1px solid #666;font-weight: bold;">停车场信息</p>
+					<p>停车场名称：<span>天赋新谷停车场</span></p>
+					<p>场内停车位：<span>251</span></p>
+					<p>剩余停车位：<span>251</span></p>
+					<p>临时车数量：<span>251</span></p>
+				</div>
+				<div class="row-fluid" style="background-color: white;margin-top: 10px;">
+					<p style="padding-bottom: 8px;width: 100%;border-bottom: 1px solid #666;font-weight: bold;">收费员本班次收费</p>
+					<p>收费员：<span>张三</span></p>
+					<p>上班时间：<span>2018-03-10 08:10</span></p>
+					<p>免费车次：<span>3</span>次</p>
+					<p>手动放行：<span>51</span>次</p>
+					<p>优惠车次：<span>21</span>次</p>
+					<p>总实收金额：<span>128.00</span>元</p>
+				</div>
+				<div class="row-fluid" style="background-color: white;margin-top: 10px;">
+					<p style="padding-bottom: 8px;width: 100%;border-bottom: 1px solid #666;font-weight: bold;">本次计费</p>
+					<p>车牌号：<span>川A90J26</span></p>
+					<p>停留时间：<span>2小时30分钟</span></p>
+					<p>进入时间：<span>2018-03-10 08：00</span></p>
+					<p>离开时间：<span>2018-03-10 11：00</span></p>
+					<p>优惠券抵扣</p>
+					<div class="input-group" style="width: 100%;">
+					  	<input type="text" class="form-control" placeholder="请输入优惠号" aria-describedby="basic-addon1" style="width: 70%;">
+					  	<button class="btn btn-primary btn-block" style="background-color: #675826;font-size: 16px;color: #caab4e;font-weight: bold;border: 1px solid #675826;height: 40px;width: calc(30% - 5px);margin-left: 5px;">抵扣</button>
+					</div>
+					<p style="font-size: 30px;font-weight: bold;margin-top: 20px;">
+						收费：<span>20.00元</span>
+					</p>
+					<div class="input-group" style="width: 100%;">
+					  	<button class="btn btn-primary btn-block" style="background-color: #675826;font-size: 16px;color: #caab4e;font-weight: bold;border: 1px solid #675826;height: 40px;margin-top: 20px;">收费放行</button>
+					</div>
+					<div class="input-group" style="width: 100%;margin-top: 20px;">
+					  	<button class="btn btn-primary btn-block" style="background-color: #675826;font-size: 16px;color: #caab4e;font-weight: bold;border: 1px solid #675826;height: 40px;">手动处理</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<!-- bootstrap框架 -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- traceur相关js -->
+<script src="js/traceur/traceur.js"></script>
+<script src="js/traceur/BrowserSystem.js"></script>
+<script src="js/traceur/bootstrap.js"></script>
+<!-- es6语法 -->
+<script type="module">
+	$(function(){
+		let src = "http://hc.yinyuetai.com/uploads/videos/common/B52101615110957CCA64A354304D7953.mp4";
+		let vlc = document.getElementById("vlc");
+	});
+</script>
+</html>

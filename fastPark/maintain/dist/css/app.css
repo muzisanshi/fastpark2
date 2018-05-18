@@ -1,0 +1,25 @@
+
+/*模态对话框样式*/
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: calc(100% - 60px);
+    margin: 30px 30px;
+  }
+  /*小对话框*/
+  .modal-dialog.small{
+  	width: 600px;
+  	margin: 30px auto;
+  }
+
+  /*超小对话框*/
+  .modal-dialog.msmall{
+  	width: 500px;
+  	margin: 30px auto;
+  }
+
+  /*迷你对话框*/
+  .modal-dialog.ssmall{
+  	width: 300px;
+  	margin: 30px auto;
+  }
+}
